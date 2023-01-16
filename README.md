@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a demo app for the N+1 queries presentation.
 
-Things you may want to cover:
+To try the app locally:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Clone the repo `git@github.com:siwS/n_plus_one_queries_demo.git`
+2. Run `bundle install`
+3. Run `bin/rails db:setup` and `bin/rails db:seed` to seed the DB
+4. Start the server `bin/rails s`
+5. Fire up a console `bin/rails console`
+6. Go to the db/notes.rb file for the notes of the presentation and the N+1 queries

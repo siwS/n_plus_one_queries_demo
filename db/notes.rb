@@ -1,4 +1,4 @@
-# N+1 queries session!!
+# N+1 queries session:
 # Slides: https://docs.google.com/presentation/d/1HqHs-O6AP6PxFz9MqYNm5hAyW5xfx2lM-__xNUPO9pc/edit?usp=sharing
 
 # Before starting with the code, show the models involved
