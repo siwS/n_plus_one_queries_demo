@@ -16,5 +16,7 @@ contacts.each do |contact|
 end
 
 addresses =  EmailAddress.all.select { |x| x.id % 3 == 0 }
-addresses.each { |x| x.bounced = true }
-addresses.save!
+addresses.each do |x|
+  x.bounced = true
+  x.save!
+end
