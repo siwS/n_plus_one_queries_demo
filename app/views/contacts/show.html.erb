@@ -1,0 +1,10 @@
+<% @contacts.each do |contact| %>
+  <article>
+    <h2><%= contact.first_name %></h2>
+    <ul>
+      <% contact.email_addresses.each do |email_address| %>
+        <li><%= email_address.address %></li>
+      <% end %>
+    </ul>
+  </article>
+<% end %>
